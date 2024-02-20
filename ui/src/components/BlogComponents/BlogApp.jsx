@@ -95,13 +95,13 @@ return (
         <div
         style={{
             position: "relative",
-            backgroundColor: "#3498db",
-            padding: "10px",
-            borderRadius: "10px",
-            marginBottom: "-973px",
+            backgroundColor: "purple",
+            padding: "auto",
+            // borderRadius: "10px",
+            // marginBottom: "-973px",
         }}
         >
-        <h1 style={{ fontSize: "24px", fontWeight: "bold", textAlign: "center", color: "white" }}>Blog App</h1>
+        <h1 style={{ fontWeight: "bold", textAlign: "center", color: "white" }}>Book of Lore 🧙🏼‍♂️</h1>
         </div>
         {/* Conditional rendering based on whether a post is selected */}
         {editMode ? (
