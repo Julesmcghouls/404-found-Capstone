@@ -1,5 +1,3 @@
-//import statement for React
-
 const LandingPage = () => {
   return (
     <div
@@ -16,16 +14,13 @@ const LandingPage = () => {
         opacity: 0.8, // Reduce the opacity of the background image to make it look like a watermark
       }}
     >
-      <h1 style={{ textAlign: "center" }}>D&D Character Creator</h1>
-      <nav></nav>
-
-      <main role="main" style={{ textAlign: "center", marginTop: "20px" }}>
+      <main>
         <p>Create the start of your journey</p>
       </main>
 
-      <footer className="mastfoot mt-auto" style={{ marginTop: "auto" }}>
-        <div className="inner" style={{ textAlign: "center" }}>
-          <p>Created by 404-Found</p>
+      <footer style={{ marginTop: "auto" }}>
+        <div style={{ textAlign: "center" }}>
+          <p style={{color: "white"}}>Created by 404-Found</p>
         </div>
       </footer>
     </div>
