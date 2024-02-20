@@ -88,14 +88,14 @@ setNewPostAuthor(post.author || ""); // Handle cases where author is not defined
 
 // Render the main structure of the app
 return (
-<Container style={{ paddingTop: "40px", paddingLeft: "20px", paddingRight: "20px" }}>
+<Container style={{ paddingTop: "auto", paddingLeft: "auto", paddingRight: "auto" }}>
     <Row>
     <Col>
         {/* Header */}
         <div
         style={{
             position: "relative",
-            backgroundColor: "purple",
+            backgroundColor: "black",
             padding: "auto",
             // borderRadius: "10px",
             // marginBottom: "-973px",
