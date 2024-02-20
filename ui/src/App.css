@@ -1,44 +1,24 @@
 
 #root {
-  margin: 0 auto;
-  padding: 2rem;
+  margin: flex;
+  padding: flex;
 }
 
 html,body,div
 {
-    color: yellow;
-    background-color:black;
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 
 .card {
-  padding: 2em;
+  padding: auto;
 }
 
-/* Styling for the roll button */
-button {
-  padding: 10px 20px;
-  background-color: #61dafb;
-  color: white;
-  font-size: 16px;
-  cursor: pointer;
-  }
-  
-  /* Hover effect for the roll button */
-  button:hover {
-  background-color: #4fa3d1;
-  }
-  .logo:hover {
-    filter: drop-shadow(0 0 2em #646cffaa);
-  }
-  .logo.react:hover {
-    filter: drop-shadow(0 0 2em #61dafbaa);
-  }
-
-  @keyframes logo-spin {
+  /* @keyframes logo-spin {
     from {
       transform: rotate(0deg);
     }
@@ -49,4 +29,4 @@ button {
     Nav {
       color: black;
     }
-  }
+  } */
